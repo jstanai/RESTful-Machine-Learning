@@ -1,0 +1,11 @@
+name: sentiment_analysis
+
+entry_points:
+  # Runs Papermill Execution
+  model_entrypoint:
+    parameters:
+      experiment_name: {type: string, default: "Test"}
+      run_id: {type: string, default: ""}    
+      conf: {type: string, default: ""}
+    command: "python model_entrypoint.py --experiment_name {experiment_name} --run_id {run_id} --conf {conf}"
+    

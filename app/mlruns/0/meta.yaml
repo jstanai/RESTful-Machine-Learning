@@ -1,0 +1,4 @@
+artifact_location: file:///Users/Jared/GitHub/sentiment_analysis/app/mlruns/0
+experiment_id: '0'
+lifecycle_stage: active
+name: Test Experiment
